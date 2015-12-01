@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30823E471C0D7F7A00C7EF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E461C0D7F7A00C7EF76 /* main.m */; };
+		30823E4A1C0D7F7A00C7EF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E491C0D7F7A00C7EF76 /* AppDelegate.m */; };
+		30823E4D1C0D7F7A00C7EF76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E4C1C0D7F7A00C7EF76 /* ViewController.m */; };
+		30823E501C0D7F7A00C7EF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30823E4E1C0D7F7A00C7EF76 /* Main.storyboard */; };
+		30823E531C0D7F7A00C7EF76 /* XTReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30823E511C0D7F7A00C7EF76 /* XTReader.xcdatamodeld */; };
+		30823E551C0D7F7A00C7EF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30823E541C0D7F7A00C7EF76 /* Assets.xcassets */; };
+		30823E581C0D7F7A00C7EF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30823E561C0D7F7A00C7EF76 /* LaunchScreen.storyboard */; };
+		30823E631C0D7F7A00C7EF76 /* XTReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E621C0D7F7A00C7EF76 /* XTReaderTests.m */; };
+		30823E6E1C0D7F7B00C7EF76 /* XTReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E6D1C0D7F7B00C7EF76 /* XTReaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30823E5F1C0D7F7A00C7EF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30823E3A1C0D7F7A00C7EF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30823E411C0D7F7A00C7EF76;
+			remoteInfo = XTReader;
+		};
+		30823E6A1C0D7F7A00C7EF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30823E3A1C0D7F7A00C7EF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30823E411C0D7F7A00C7EF76;
+			remoteInfo = XTReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30823E421C0D7F7A00C7EF76 /* XTReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30823E461C0D7F7A00C7EF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30823E481C0D7F7A00C7EF76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30823E491C0D7F7A00C7EF76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30823E4B1C0D7F7A00C7EF76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30823E4C1C0D7F7A00C7EF76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30823E4F1C0D7F7A00C7EF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30823E521C0D7F7A00C7EF76 /* XTReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XTReader.xcdatamodel; sourceTree = "<group>"; };
+		30823E541C0D7F7A00C7EF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30823E571C0D7F7A00C7EF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30823E591C0D7F7A00C7EF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30823E5E1C0D7F7A00C7EF76 /* XTReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30823E621C0D7F7A00C7EF76 /* XTReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTReaderTests.m; sourceTree = "<group>"; };
+		30823E641C0D7F7A00C7EF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30823E691C0D7F7A00C7EF76 /* XTReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30823E6D1C0D7F7B00C7EF76 /* XTReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTReaderUITests.m; sourceTree = "<group>"; };
+		30823E6F1C0D7F7B00C7EF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30823E3F1C0D7F7A00C7EF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30823E5B1C0D7F7A00C7EF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30823E661C0D7F7A00C7EF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30823E391C0D7F7A00C7EF76 = {
+			isa = PBXGroup;
+			children = (
+				30823E441C0D7F7A00C7EF76 /* XTReader */,
+				30823E611C0D7F7A00C7EF76 /* XTReaderTests */,
+				30823E6C1C0D7F7A00C7EF76 /* XTReaderUITests */,
+				30823E431C0D7F7A00C7EF76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30823E431C0D7F7A00C7EF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30823E421C0D7F7A00C7EF76 /* XTReader.app */,
+				30823E5E1C0D7F7A00C7EF76 /* XTReaderTests.xctest */,
+				30823E691C0D7F7A00C7EF76 /* XTReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30823E441C0D7F7A00C7EF76 /* XTReader */ = {
+			isa = PBXGroup;
+			children = (
+				30823E481C0D7F7A00C7EF76 /* AppDelegate.h */,
+				30823E491C0D7F7A00C7EF76 /* AppDelegate.m */,
+				30823E4B1C0D7F7A00C7EF76 /* ViewController.h */,
+				30823E4C1C0D7F7A00C7EF76 /* ViewController.m */,
+				30823E4E1C0D7F7A00C7EF76 /* Main.storyboard */,
+				30823E541C0D7F7A00C7EF76 /* Assets.xcassets */,
+				30823E561C0D7F7A00C7EF76 /* LaunchScreen.storyboard */,
+				30823E591C0D7F7A00C7EF76 /* Info.plist */,
+				30823E511C0D7F7A00C7EF76 /* XTReader.xcdatamodeld */,
+				30823E451C0D7F7A00C7EF76 /* Supporting Files */,
+			);
+			path = XTReader;
+			sourceTree = "<group>";
+		};
+		30823E451C0D7F7A00C7EF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30823E461C0D7F7A00C7EF76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30823E611C0D7F7A00C7EF76 /* XTReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				30823E621C0D7F7A00C7EF76 /* XTReaderTests.m */,
+				30823E641C0D7F7A00C7EF76 /* Info.plist */,
+			);
+			path = XTReaderTests;
+			sourceTree = "<group>";
+		};
+		30823E6C1C0D7F7A00C7EF76 /* XTReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30823E6D1C0D7F7B00C7EF76 /* XTReaderUITests.m */,
+				30823E6F1C0D7F7B00C7EF76 /* Info.plist */,
+			);
+			path = XTReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30823E411C0D7F7A00C7EF76 /* XTReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30823E721C0D7F7B00C7EF76 /* Build configuration list for PBXNativeTarget "XTReader" */;
+			buildPhases = (
+				30823E3E1C0D7F7A00C7EF76 /* Sources */,
+				30823E3F1C0D7F7A00C7EF76 /* Frameworks */,
+				30823E401C0D7F7A00C7EF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTReader;
+			productName = XTReader;
+			productReference = 30823E421C0D7F7A00C7EF76 /* XTReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30823E5D1C0D7F7A00C7EF76 /* XTReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30823E751C0D7F7B00C7EF76 /* Build configuration list for PBXNativeTarget "XTReaderTests" */;
+			buildPhases = (
+				30823E5A1C0D7F7A00C7EF76 /* Sources */,
+				30823E5B1C0D7F7A00C7EF76 /* Frameworks */,
+				30823E5C1C0D7F7A00C7EF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30823E601C0D7F7A00C7EF76 /* PBXTargetDependency */,
+			);
+			name = XTReaderTests;
+			productName = XTReaderTests;
+			productReference = 30823E5E1C0D7F7A00C7EF76 /* XTReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30823E681C0D7F7A00C7EF76 /* XTReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30823E781C0D7F7B00C7EF76 /* Build configuration list for PBXNativeTarget "XTReaderUITests" */;
+			buildPhases = (
+				30823E651C0D7F7A00C7EF76 /* Sources */,
+				30823E661C0D7F7A00C7EF76 /* Frameworks */,
+				30823E671C0D7F7A00C7EF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30823E6B1C0D7F7A00C7EF76 /* PBXTargetDependency */,
+			);
+			name = XTReaderUITests;
+			productName = XTReaderUITests;
+			productReference = 30823E691C0D7F7A00C7EF76 /* XTReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30823E3A1C0D7F7A00C7EF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = gao7;
+				TargetAttributes = {
+					30823E411C0D7F7A00C7EF76 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					30823E5D1C0D7F7A00C7EF76 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 30823E411C0D7F7A00C7EF76;
+					};
+					30823E681C0D7F7A00C7EF76 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 30823E411C0D7F7A00C7EF76;
+					};
+				};
+			};
+			buildConfigurationList = 30823E3D1C0D7F7A00C7EF76 /* Build configuration list for PBXProject "XTReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30823E391C0D7F7A00C7EF76;
+			productRefGroup = 30823E431C0D7F7A00C7EF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30823E411C0D7F7A00C7EF76 /* XTReader */,
+				30823E5D1C0D7F7A00C7EF76 /* XTReaderTests */,
+				30823E681C0D7F7A00C7EF76 /* XTReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30823E401C0D7F7A00C7EF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30823E581C0D7F7A00C7EF76 /* LaunchScreen.storyboard in Resources */,
+				30823E551C0D7F7A00C7EF76 /* Assets.xcassets in Resources */,
+				30823E501C0D7F7A00C7EF76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30823E5C1C0D7F7A00C7EF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30823E671C0D7F7A00C7EF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30823E3E1C0D7F7A00C7EF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30823E531C0D7F7A00C7EF76 /* XTReader.xcdatamodeld in Sources */,
+				30823E4D1C0D7F7A00C7EF76 /* ViewController.m in Sources */,
+				30823E4A1C0D7F7A00C7EF76 /* AppDelegate.m in Sources */,
+				30823E471C0D7F7A00C7EF76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30823E5A1C0D7F7A00C7EF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30823E631C0D7F7A00C7EF76 /* XTReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30823E651C0D7F7A00C7EF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30823E6E1C0D7F7B00C7EF76 /* XTReaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30823E601C0D7F7A00C7EF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30823E411C0D7F7A00C7EF76 /* XTReader */;
+			targetProxy = 30823E5F1C0D7F7A00C7EF76 /* PBXContainerItemProxy */;
+		};
+		30823E6B1C0D7F7A00C7EF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30823E411C0D7F7A00C7EF76 /* XTReader */;
+			targetProxy = 30823E6A1C0D7F7A00C7EF76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30823E4E1C0D7F7A00C7EF76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30823E4F1C0D7F7A00C7EF76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30823E561C0D7F7A00C7EF76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30823E571C0D7F7A00C7EF76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30823E701C0D7F7B00C7EF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30823E711C0D7F7B00C7EF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30823E731C0D7F7B00C7EF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XTReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xutong.XTReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30823E741C0D7F7B00C7EF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XTReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xutong.XTReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30823E761C0D7F7B00C7EF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XTReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xutong.XTReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTReader.app/XTReader";
+			};
+			name = Debug;
+		};
+		30823E771C0D7F7B00C7EF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XTReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xutong.XTReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTReader.app/XTReader";
+			};
+			name = Release;
+		};
+		30823E791C0D7F7B00C7EF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XTReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xutong.XTReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XTReader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		30823E7A1C0D7F7B00C7EF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XTReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xutong.XTReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XTReader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30823E3D1C0D7F7A00C7EF76 /* Build configuration list for PBXProject "XTReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30823E701C0D7F7B00C7EF76 /* Debug */,
+				30823E711C0D7F7B00C7EF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30823E721C0D7F7B00C7EF76 /* Build configuration list for PBXNativeTarget "XTReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30823E731C0D7F7B00C7EF76 /* Debug */,
+				30823E741C0D7F7B00C7EF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30823E751C0D7F7B00C7EF76 /* Build configuration list for PBXNativeTarget "XTReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30823E761C0D7F7B00C7EF76 /* Debug */,
+				30823E771C0D7F7B00C7EF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30823E781C0D7F7B00C7EF76 /* Build configuration list for PBXNativeTarget "XTReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30823E791C0D7F7B00C7EF76 /* Debug */,
+				30823E7A1C0D7F7B00C7EF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30823E511C0D7F7A00C7EF76 /* XTReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30823E521C0D7F7A00C7EF76 /* XTReader.xcdatamodel */,
+			);
+			currentVersion = 30823E521C0D7F7A00C7EF76 /* XTReader.xcdatamodel */;
+			path = XTReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30823E3A1C0D7F7A00C7EF76 /* Project object */;
+}
