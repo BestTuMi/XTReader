@@ -7,6 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30574A291C0FCE2700C02458 /* NovelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A281C0FCE2700C02458 /* NovelObject.m */; settings = {ASSET_TAGS = (); }; };
+		30574A2D1C0FCE5200C02458 /* AFHTTPRequestOperation+CurrentDecodeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A2B1C0FCE5200C02458 /* AFHTTPRequestOperation+CurrentDecodeResponse.m */; settings = {ASSET_TAGS = (); }; };
+		30574A491C0FD04D00C02458 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A311C0FD04D00C02458 /* NSObject+SBJson.m */; settings = {ASSET_TAGS = (); }; };
+		30574A4A1C0FD04D00C02458 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A341C0FD04D00C02458 /* SBJsonParser.m */; settings = {ASSET_TAGS = (); }; };
+		30574A4B1C0FD04D00C02458 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A361C0FD04D00C02458 /* SBJsonStreamParser.m */; settings = {ASSET_TAGS = (); }; };
+		30574A4C1C0FD04D00C02458 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A381C0FD04D00C02458 /* SBJsonStreamParserAccumulator.m */; settings = {ASSET_TAGS = (); }; };
+		30574A4D1C0FD04D00C02458 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A3A1C0FD04D00C02458 /* SBJsonStreamParserAdapter.m */; settings = {ASSET_TAGS = (); }; };
+		30574A4E1C0FD04D00C02458 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A3C1C0FD04D00C02458 /* SBJsonStreamParserState.m */; settings = {ASSET_TAGS = (); }; };
+		30574A4F1C0FD04D00C02458 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A3E1C0FD04D00C02458 /* SBJsonStreamWriter.m */; settings = {ASSET_TAGS = (); }; };
+		30574A501C0FD04D00C02458 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A401C0FD04D00C02458 /* SBJsonStreamWriterAccumulator.m */; settings = {ASSET_TAGS = (); }; };
+		30574A511C0FD04D00C02458 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A421C0FD04D00C02458 /* SBJsonStreamWriterState.m */; settings = {ASSET_TAGS = (); }; };
+		30574A521C0FD04D00C02458 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A441C0FD04D00C02458 /* SBJsonTokeniser.m */; settings = {ASSET_TAGS = (); }; };
+		30574A531C0FD04D00C02458 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A461C0FD04D00C02458 /* SBJsonUTF8Stream.m */; settings = {ASSET_TAGS = (); }; };
+		30574A541C0FD04D00C02458 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A481C0FD04D00C02458 /* SBJsonWriter.m */; settings = {ASSET_TAGS = (); }; };
+		30574A581C0FD36900C02458 /* NovelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A571C0FD36900C02458 /* NovelModel.m */; settings = {ASSET_TAGS = (); }; };
+		30574A5B1C0FDF0300C02458 /* AFAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A591C0FDF0300C02458 /* AFAppClient.m */; settings = {ASSET_TAGS = (); }; };
+		30574A791C0FF2E500C02458 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30574A781C0FF2E500C02458 /* AFNetworking.framework */; settings = {ASSET_TAGS = (); }; };
+		30574A7C1C0FF47000C02458 /* DataTypeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574A7B1C0FF47000C02458 /* DataTypeHelper.m */; settings = {ASSET_TAGS = (); }; };
+		30574AC31C10181900C02458 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AAA1C10181900C02458 /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		30574AC41C10181900C02458 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AAD1C10181900C02458 /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		30574AC51C10181900C02458 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AAF1C10181900C02458 /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
+		30574AC61C10181900C02458 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AB11C10181900C02458 /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		30574AC71C10181900C02458 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AB51C10181900C02458 /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
+		30574AC81C10181900C02458 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AB71C10181900C02458 /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		30574AC91C10181900C02458 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AB91C10181900C02458 /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		30574ACA1C10181900C02458 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574ABC1C10181900C02458 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		30574ACB1C10181900C02458 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574ABE1C10181900C02458 /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		30574ACC1C10181900C02458 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AC11C10181900C02458 /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		30574AD21C1022CB00C02458 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AD11C1022CB00C02458 /* SearchViewController.m */; settings = {ASSET_TAGS = (); }; };
+		30574AD51C10323500C02458 /* BookDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AD41C10323500C02458 /* BookDetailView.m */; settings = {ASSET_TAGS = (); }; };
+		30574AD81C10367000C02458 /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30574AD71C10367000C02458 /* BookDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		30769F981C127816006D2386 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 30769F971C127816006D2386 /* libsqlite3.0.tbd */; };
+		30769F9C1C127AAA006D2386 /* XTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769F9B1C127AAA006D2386 /* XTManager.m */; settings = {ASSET_TAGS = (); }; };
+		30769F9F1C1282BE006D2386 /* XTDatabaseCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769F9E1C1282BE006D2386 /* XTDatabaseCreator.m */; settings = {ASSET_TAGS = (); }; };
+		30769FA21C128746006D2386 /* XTNovelService.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769FA11C128746006D2386 /* XTNovelService.m */; settings = {ASSET_TAGS = (); }; };
+		30769FA51C12BA4D006D2386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30769FA41C12BA4D006D2386 /* UIKit.framework */; };
+		30769FA71C12BA56006D2386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30769FA61C12BA56006D2386 /* Foundation.framework */; };
+		30769FA91C12BA5F006D2386 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30769FA81C12BA5F006D2386 /* CoreGraphics.framework */; };
+		30769FAB1C12BA7B006D2386 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30769FAA1C12BA7B006D2386 /* QuartzCore.framework */; };
+		30769FB11C12C278006D2386 /* LeavesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769FAE1C12C278006D2386 /* LeavesCache.m */; settings = {ASSET_TAGS = (); }; };
+		30769FB21C12C278006D2386 /* LeavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769FB01C12C278006D2386 /* LeavesView.m */; settings = {ASSET_TAGS = (); }; };
+		30769FB81C12C2DC006D2386 /* YAScreenShotClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769FB51C12C2DC006D2386 /* YAScreenShotClass.m */; settings = {ASSET_TAGS = (); }; };
+		30769FB91C12C2DC006D2386 /* GetImageArrayFromTxt.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769FB71C12C2DC006D2386 /* GetImageArrayFromTxt.m */; settings = {ASSET_TAGS = (); }; };
+		30769FBC1C12C41D006D2386 /* BookReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769FBB1C12C41D006D2386 /* BookReadViewController.m */; settings = {ASSET_TAGS = (); }; };
+		30769FBF1C12C43C006D2386 /* LeavesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30769FBE1C12C43C006D2386 /* LeavesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		30769FC21C12D362006D2386 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 30769FC01C12D362006D2386 /* add.png */; settings = {ASSET_TAGS = (); }; };
+		30769FC31C12D362006D2386 /* reduce.png in Resources */ = {isa = PBXBuildFile; fileRef = 30769FC11C12D362006D2386 /* reduce.png */; settings = {ASSET_TAGS = (); }; };
+		3076DCEA1C17D83B00353048 /* RecentyReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076DCE91C17D83B00353048 /* RecentyReadViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3076DCED1C1800FF00353048 /* BookShelfTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076DCEC1C1800FF00353048 /* BookShelfTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		3076DCF01C18011400353048 /* BookStoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076DCEF1C18011400353048 /* BookStoreTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		3076DCF31C18045700353048 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3076DCF11C18045700353048 /* test1.png */; settings = {ASSET_TAGS = (); }; };
+		3076DCF41C18045700353048 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3076DCF21C18045700353048 /* test2.png */; settings = {ASSET_TAGS = (); }; };
+		307B333B1C113FEE00576010 /* XTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 307B333A1C113FEE00576010 /* XTTool.m */; settings = {ASSET_TAGS = (); }; };
 		30823E471C0D7F7A00C7EF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E461C0D7F7A00C7EF76 /* main.m */; };
 		30823E4A1C0D7F7A00C7EF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E491C0D7F7A00C7EF76 /* AppDelegate.m */; };
 		30823E4D1C0D7F7A00C7EF76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E4C1C0D7F7A00C7EF76 /* ViewController.m */; };
@@ -16,6 +69,24 @@
 		30823E581C0D7F7A00C7EF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30823E561C0D7F7A00C7EF76 /* LaunchScreen.storyboard */; };
 		30823E631C0D7F7A00C7EF76 /* XTReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E621C0D7F7A00C7EF76 /* XTReaderTests.m */; };
 		30823E6E1C0D7F7B00C7EF76 /* XTReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E6D1C0D7F7B00C7EF76 /* XTReaderUITests.m */; };
+		30823E851C0D9F7100C7EF76 /* XTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E841C0D9F7100C7EF76 /* XTViewController.m */; settings = {ASSET_TAGS = (); }; };
+		30823E881C0D9F9F00C7EF76 /* XTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E871C0D9F9F00C7EF76 /* XTNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		30823E8B1C0D9FDA00C7EF76 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E8A1C0D9FDA00C7EF76 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		30823E8F1C0DA52E00C7EF76 /* BookshelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E8D1C0DA52E00C7EF76 /* BookshelfViewController.m */; settings = {ASSET_TAGS = (); }; };
+		30823E901C0DA52E00C7EF76 /* BookshelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30823E8E1C0DA52E00C7EF76 /* BookshelfViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		30823E931C0DA56B00C7EF76 /* BookstoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E921C0DA56B00C7EF76 /* BookstoreView.m */; settings = {ASSET_TAGS = (); }; };
+		30823E961C0DA5F200C7EF76 /* BookstoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30823E951C0DA5F200C7EF76 /* BookstoreViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3085380B1C1520D00087126C /* LeavesPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3085380A1C1520D00087126C /* LeavesPageHelper.m */; settings = {ASSET_TAGS = (); }; };
+		3085380F1C152F330087126C /* DownNovelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3085380E1C152F330087126C /* DownNovelHelper.m */; settings = {ASSET_TAGS = (); }; };
+		308538121C1533A50087126C /* NovelContentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 308538111C1533A50087126C /* NovelContentObject.m */; settings = {ASSET_TAGS = (); }; };
+		30DE49671C0ED09A00641430 /* TodaySuggestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DE49661C0ED09A00641430 /* TodaySuggestView.m */; settings = {ASSET_TAGS = (); }; };
+		30DE496A1C0ED0D000641430 /* ClickRankingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DE49691C0ED0D000641430 /* ClickRankingView.m */; settings = {ASSET_TAGS = (); }; };
+		30DE496D1C0ED0FE00641430 /* NewBookSuggestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DE496C1C0ED0FE00641430 /* NewBookSuggestView.m */; settings = {ASSET_TAGS = (); }; };
+		30DE496F1C0EF43E00641430 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DE496E1C0EF43E00641430 /* search.png */; settings = {ASSET_TAGS = (); }; };
+		30DE49751C0EF63E00641430 /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DE49741C0EF63E00641430 /* SearchView.m */; settings = {ASSET_TAGS = (); }; };
+		30F013841C0E9B4A00213AF2 /* bookshelf.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F013821C0E9B4A00213AF2 /* bookshelf.png */; settings = {ASSET_TAGS = (); }; };
+		30F013851C0E9B4A00213AF2 /* bookstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F013831C0E9B4A00213AF2 /* bookstore.png */; settings = {ASSET_TAGS = (); }; };
+		30FD43E41C1956200026831C /* ReadStateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD43E31C1956200026831C /* ReadStateObject.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +107,109 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30574A251C0FCD4200C02458 /* XTReaderPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTReaderPrefixHeader.pch; sourceTree = "<group>"; };
+		30574A271C0FCE2700C02458 /* NovelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelObject.h; sourceTree = "<group>"; };
+		30574A281C0FCE2700C02458 /* NovelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelObject.m; sourceTree = "<group>"; };
+		30574A2A1C0FCE5200C02458 /* AFHTTPRequestOperation+CurrentDecodeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperation+CurrentDecodeResponse.h"; sourceTree = "<group>"; };
+		30574A2B1C0FCE5200C02458 /* AFHTTPRequestOperation+CurrentDecodeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperation+CurrentDecodeResponse.m"; sourceTree = "<group>"; };
+		30574A301C0FD04D00C02458 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		30574A311C0FD04D00C02458 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		30574A321C0FD04D00C02458 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		30574A331C0FD04D00C02458 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		30574A341C0FD04D00C02458 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		30574A351C0FD04D00C02458 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		30574A361C0FD04D00C02458 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		30574A371C0FD04D00C02458 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		30574A381C0FD04D00C02458 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		30574A391C0FD04D00C02458 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		30574A3A1C0FD04D00C02458 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		30574A3B1C0FD04D00C02458 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		30574A3C1C0FD04D00C02458 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		30574A3D1C0FD04D00C02458 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		30574A3E1C0FD04D00C02458 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		30574A3F1C0FD04D00C02458 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		30574A401C0FD04D00C02458 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		30574A411C0FD04D00C02458 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		30574A421C0FD04D00C02458 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		30574A431C0FD04D00C02458 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		30574A441C0FD04D00C02458 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		30574A451C0FD04D00C02458 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		30574A461C0FD04D00C02458 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		30574A471C0FD04D00C02458 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		30574A481C0FD04D00C02458 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		30574A561C0FD36900C02458 /* NovelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelModel.h; sourceTree = "<group>"; };
+		30574A571C0FD36900C02458 /* NovelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelModel.m; sourceTree = "<group>"; };
+		30574A591C0FDF0300C02458 /* AFAppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppClient.m; sourceTree = "<group>"; };
+		30574A5A1C0FDF0300C02458 /* AFAppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppClient.h; sourceTree = "<group>"; };
+		30574A781C0FF2E500C02458 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		30574A7A1C0FF47000C02458 /* DataTypeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypeHelper.h; sourceTree = "<group>"; };
+		30574A7B1C0FF47000C02458 /* DataTypeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTypeHelper.m; sourceTree = "<group>"; };
+		30574AA91C10181900C02458 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		30574AAA1C10181900C02458 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		30574AAB1C10181900C02458 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		30574AAC1C10181900C02458 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		30574AAD1C10181900C02458 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		30574AAE1C10181900C02458 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		30574AAF1C10181900C02458 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		30574AB01C10181900C02458 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		30574AB11C10181900C02458 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		30574AB21C10181900C02458 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		30574AB31C10181900C02458 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		30574AB41C10181900C02458 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		30574AB51C10181900C02458 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		30574AB61C10181900C02458 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		30574AB71C10181900C02458 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		30574AB81C10181900C02458 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		30574AB91C10181900C02458 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		30574ABA1C10181900C02458 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		30574ABB1C10181900C02458 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		30574ABC1C10181900C02458 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		30574ABD1C10181900C02458 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		30574ABE1C10181900C02458 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		30574ABF1C10181900C02458 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		30574AC01C10181900C02458 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		30574AC11C10181900C02458 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		30574AD01C1022CB00C02458 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		30574AD11C1022CB00C02458 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		30574AD31C10323500C02458 /* BookDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailView.h; sourceTree = "<group>"; };
+		30574AD41C10323500C02458 /* BookDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailView.m; sourceTree = "<group>"; };
+		30574AD61C10367000C02458 /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		30574AD71C10367000C02458 /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
+		30769F971C127816006D2386 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		30769F9A1C127AAA006D2386 /* XTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTManager.h; sourceTree = "<group>"; };
+		30769F9B1C127AAA006D2386 /* XTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTManager.m; sourceTree = "<group>"; };
+		30769F9D1C1282BE006D2386 /* XTDatabaseCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTDatabaseCreator.h; sourceTree = "<group>"; };
+		30769F9E1C1282BE006D2386 /* XTDatabaseCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTDatabaseCreator.m; sourceTree = "<group>"; };
+		30769FA01C128746006D2386 /* XTNovelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNovelService.h; sourceTree = "<group>"; };
+		30769FA11C128746006D2386 /* XTNovelService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNovelService.m; sourceTree = "<group>"; };
+		30769FA41C12BA4D006D2386 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30769FA61C12BA56006D2386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30769FA81C12BA5F006D2386 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30769FAA1C12BA7B006D2386 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		30769FAD1C12C278006D2386 /* LeavesCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavesCache.h; sourceTree = "<group>"; };
+		30769FAE1C12C278006D2386 /* LeavesCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeavesCache.m; sourceTree = "<group>"; };
+		30769FAF1C12C278006D2386 /* LeavesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavesView.h; sourceTree = "<group>"; };
+		30769FB01C12C278006D2386 /* LeavesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeavesView.m; sourceTree = "<group>"; };
+		30769FB41C12C2DC006D2386 /* YAScreenShotClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAScreenShotClass.h; sourceTree = "<group>"; };
+		30769FB51C12C2DC006D2386 /* YAScreenShotClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAScreenShotClass.m; sourceTree = "<group>"; };
+		30769FB61C12C2DC006D2386 /* GetImageArrayFromTxt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetImageArrayFromTxt.h; sourceTree = "<group>"; };
+		30769FB71C12C2DC006D2386 /* GetImageArrayFromTxt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetImageArrayFromTxt.m; sourceTree = "<group>"; };
+		30769FBA1C12C41D006D2386 /* BookReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookReadViewController.h; sourceTree = "<group>"; };
+		30769FBB1C12C41D006D2386 /* BookReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookReadViewController.m; sourceTree = "<group>"; };
+		30769FBD1C12C43C006D2386 /* LeavesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavesViewController.h; sourceTree = "<group>"; };
+		30769FBE1C12C43C006D2386 /* LeavesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeavesViewController.m; sourceTree = "<group>"; };
+		30769FC01C12D362006D2386 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		30769FC11C12D362006D2386 /* reduce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reduce.png; sourceTree = "<group>"; };
+		3076DCE81C17D83B00353048 /* RecentyReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentyReadViewController.h; sourceTree = "<group>"; };
+		3076DCE91C17D83B00353048 /* RecentyReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentyReadViewController.m; sourceTree = "<group>"; };
+		3076DCEB1C1800FF00353048 /* BookShelfTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfTableViewCell.h; sourceTree = "<group>"; };
+		3076DCEC1C1800FF00353048 /* BookShelfTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfTableViewCell.m; sourceTree = "<group>"; };
+		3076DCEE1C18011400353048 /* BookStoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreTableViewCell.h; sourceTree = "<group>"; };
+		3076DCEF1C18011400353048 /* BookStoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreTableViewCell.m; sourceTree = "<group>"; };
+		3076DCF11C18045700353048 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
+		3076DCF21C18045700353048 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
+		307B33391C113FEE00576010 /* XTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTTool.h; sourceTree = "<group>"; };
+		307B333A1C113FEE00576010 /* XTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTTool.m; sourceTree = "<group>"; };
 		30823E421C0D7F7A00C7EF76 /* XTReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30823E461C0D7F7A00C7EF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30823E481C0D7F7A00C7EF76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +227,38 @@
 		30823E691C0D7F7A00C7EF76 /* XTReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30823E6D1C0D7F7B00C7EF76 /* XTReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTReaderUITests.m; sourceTree = "<group>"; };
 		30823E6F1C0D7F7B00C7EF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30823E831C0D9F7100C7EF76 /* XTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTViewController.h; sourceTree = "<group>"; };
+		30823E841C0D9F7100C7EF76 /* XTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTViewController.m; sourceTree = "<group>"; };
+		30823E861C0D9F9F00C7EF76 /* XTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNavigationController.h; sourceTree = "<group>"; };
+		30823E871C0D9F9F00C7EF76 /* XTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNavigationController.m; sourceTree = "<group>"; };
+		30823E891C0D9FDA00C7EF76 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		30823E8A1C0D9FDA00C7EF76 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		30823E8C1C0DA52E00C7EF76 /* BookshelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookshelfViewController.h; sourceTree = "<group>"; };
+		30823E8D1C0DA52E00C7EF76 /* BookshelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookshelfViewController.m; sourceTree = "<group>"; };
+		30823E8E1C0DA52E00C7EF76 /* BookshelfViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookshelfViewController.xib; sourceTree = "<group>"; };
+		30823E911C0DA56B00C7EF76 /* BookstoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookstoreView.h; sourceTree = "<group>"; };
+		30823E921C0DA56B00C7EF76 /* BookstoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookstoreView.m; sourceTree = "<group>"; };
+		30823E941C0DA5F200C7EF76 /* BookstoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookstoreViewController.h; sourceTree = "<group>"; };
+		30823E951C0DA5F200C7EF76 /* BookstoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookstoreViewController.m; sourceTree = "<group>"; };
+		308538091C1520D00087126C /* LeavesPageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavesPageHelper.h; sourceTree = "<group>"; };
+		3085380A1C1520D00087126C /* LeavesPageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeavesPageHelper.m; sourceTree = "<group>"; };
+		3085380D1C152F330087126C /* DownNovelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownNovelHelper.h; sourceTree = "<group>"; };
+		3085380E1C152F330087126C /* DownNovelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownNovelHelper.m; sourceTree = "<group>"; };
+		308538101C1533A50087126C /* NovelContentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelContentObject.h; sourceTree = "<group>"; };
+		308538111C1533A50087126C /* NovelContentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelContentObject.m; sourceTree = "<group>"; };
+		30DE49651C0ED09A00641430 /* TodaySuggestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodaySuggestView.h; sourceTree = "<group>"; };
+		30DE49661C0ED09A00641430 /* TodaySuggestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaySuggestView.m; sourceTree = "<group>"; };
+		30DE49681C0ED0D000641430 /* ClickRankingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickRankingView.h; sourceTree = "<group>"; };
+		30DE49691C0ED0D000641430 /* ClickRankingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickRankingView.m; sourceTree = "<group>"; };
+		30DE496B1C0ED0FE00641430 /* NewBookSuggestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBookSuggestView.h; sourceTree = "<group>"; };
+		30DE496C1C0ED0FE00641430 /* NewBookSuggestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBookSuggestView.m; sourceTree = "<group>"; };
+		30DE496E1C0EF43E00641430 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		30DE49731C0EF63E00641430 /* SearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		30DE49741C0EF63E00641430 /* SearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+		30F013821C0E9B4A00213AF2 /* bookshelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookshelf.png; sourceTree = "<group>"; };
+		30F013831C0E9B4A00213AF2 /* bookstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookstore.png; sourceTree = "<group>"; };
+		30FD43E21C1956200026831C /* ReadStateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadStateObject.h; sourceTree = "<group>"; };
+		30FD43E31C1956200026831C /* ReadStateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadStateObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +266,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30769FAB1C12BA7B006D2386 /* QuartzCore.framework in Frameworks */,
+				30769FA91C12BA5F006D2386 /* CoreGraphics.framework in Frameworks */,
+				30769FA71C12BA56006D2386 /* Foundation.framework in Frameworks */,
+				30769FA51C12BA4D006D2386 /* UIKit.framework in Frameworks */,
+				30769F981C127816006D2386 /* libsqlite3.0.tbd in Frameworks */,
+				30574A791C0FF2E500C02458 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +292,185 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30574A261C0FCDAF00C02458 /* bookstore */ = {
+			isa = PBXGroup;
+			children = (
+				30574A271C0FCE2700C02458 /* NovelObject.h */,
+				30574A281C0FCE2700C02458 /* NovelObject.m */,
+				30574A561C0FD36900C02458 /* NovelModel.h */,
+				30574A571C0FD36900C02458 /* NovelModel.m */,
+				308538101C1533A50087126C /* NovelContentObject.h */,
+				308538111C1533A50087126C /* NovelContentObject.m */,
+				30FD43E21C1956200026831C /* ReadStateObject.h */,
+				30FD43E31C1956200026831C /* ReadStateObject.m */,
+			);
+			name = bookstore;
+			sourceTree = "<group>";
+		};
+		30574A2F1C0FD04D00C02458 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				30574A301C0FD04D00C02458 /* NSObject+SBJson.h */,
+				30574A311C0FD04D00C02458 /* NSObject+SBJson.m */,
+				30574A321C0FD04D00C02458 /* SBJson.h */,
+				30574A331C0FD04D00C02458 /* SBJsonParser.h */,
+				30574A341C0FD04D00C02458 /* SBJsonParser.m */,
+				30574A351C0FD04D00C02458 /* SBJsonStreamParser.h */,
+				30574A361C0FD04D00C02458 /* SBJsonStreamParser.m */,
+				30574A371C0FD04D00C02458 /* SBJsonStreamParserAccumulator.h */,
+				30574A381C0FD04D00C02458 /* SBJsonStreamParserAccumulator.m */,
+				30574A391C0FD04D00C02458 /* SBJsonStreamParserAdapter.h */,
+				30574A3A1C0FD04D00C02458 /* SBJsonStreamParserAdapter.m */,
+				30574A3B1C0FD04D00C02458 /* SBJsonStreamParserState.h */,
+				30574A3C1C0FD04D00C02458 /* SBJsonStreamParserState.m */,
+				30574A3D1C0FD04D00C02458 /* SBJsonStreamWriter.h */,
+				30574A3E1C0FD04D00C02458 /* SBJsonStreamWriter.m */,
+				30574A3F1C0FD04D00C02458 /* SBJsonStreamWriterAccumulator.h */,
+				30574A401C0FD04D00C02458 /* SBJsonStreamWriterAccumulator.m */,
+				30574A411C0FD04D00C02458 /* SBJsonStreamWriterState.h */,
+				30574A421C0FD04D00C02458 /* SBJsonStreamWriterState.m */,
+				30574A431C0FD04D00C02458 /* SBJsonTokeniser.h */,
+				30574A441C0FD04D00C02458 /* SBJsonTokeniser.m */,
+				30574A451C0FD04D00C02458 /* SBJsonUTF8Stream.h */,
+				30574A461C0FD04D00C02458 /* SBJsonUTF8Stream.m */,
+				30574A471C0FD04D00C02458 /* SBJsonWriter.h */,
+				30574A481C0FD04D00C02458 /* SBJsonWriter.m */,
+			);
+			name = SBJson;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		30574A551C0FD06C00C02458 /* AFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				30574A781C0FF2E500C02458 /* AFNetworking.framework */,
+				30574A2A1C0FCE5200C02458 /* AFHTTPRequestOperation+CurrentDecodeResponse.h */,
+				30574A2B1C0FCE5200C02458 /* AFHTTPRequestOperation+CurrentDecodeResponse.m */,
+				30574A5A1C0FDF0300C02458 /* AFAppClient.h */,
+				30574A591C0FDF0300C02458 /* AFAppClient.m */,
+			);
+			name = AFNetwork;
+			sourceTree = "<group>";
+		};
+		30574A7D1C100CED00C02458 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		30574AA71C10181900C02458 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				30574AA91C10181900C02458 /* MASCompositeConstraint.h */,
+				30574AAA1C10181900C02458 /* MASCompositeConstraint.m */,
+				30574AAB1C10181900C02458 /* MASConstraint+Private.h */,
+				30574AAC1C10181900C02458 /* MASConstraint.h */,
+				30574AAD1C10181900C02458 /* MASConstraint.m */,
+				30574AAE1C10181900C02458 /* MASConstraintMaker.h */,
+				30574AAF1C10181900C02458 /* MASConstraintMaker.m */,
+				30574AB01C10181900C02458 /* MASLayoutConstraint.h */,
+				30574AB11C10181900C02458 /* MASLayoutConstraint.m */,
+				30574AB21C10181900C02458 /* Masonry.h */,
+				30574AB31C10181900C02458 /* MASUtilities.h */,
+				30574AB41C10181900C02458 /* MASViewAttribute.h */,
+				30574AB51C10181900C02458 /* MASViewAttribute.m */,
+				30574AB61C10181900C02458 /* MASViewConstraint.h */,
+				30574AB71C10181900C02458 /* MASViewConstraint.m */,
+				30574AB81C10181900C02458 /* NSArray+MASAdditions.h */,
+				30574AB91C10181900C02458 /* NSArray+MASAdditions.m */,
+				30574ABA1C10181900C02458 /* NSArray+MASShorthandAdditions.h */,
+				30574ABB1C10181900C02458 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				30574ABC1C10181900C02458 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				30574ABD1C10181900C02458 /* View+MASAdditions.h */,
+				30574ABE1C10181900C02458 /* View+MASAdditions.m */,
+				30574ABF1C10181900C02458 /* View+MASShorthandAdditions.h */,
+				30574AC01C10181900C02458 /* ViewController+MASAdditions.h */,
+				30574AC11C10181900C02458 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		30574ACD1C10225600C02458 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				30574AD01C1022CB00C02458 /* SearchViewController.h */,
+				30574AD11C1022CB00C02458 /* SearchViewController.m */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		30574ACE1C10225E00C02458 /* bookstore */ = {
+			isa = PBXGroup;
+			children = (
+				30823E941C0DA5F200C7EF76 /* BookstoreViewController.h */,
+				30823E951C0DA5F200C7EF76 /* BookstoreViewController.m */,
+				30574AD61C10367000C02458 /* BookDetailViewController.h */,
+				30574AD71C10367000C02458 /* BookDetailViewController.m */,
+			);
+			name = bookstore;
+			sourceTree = "<group>";
+		};
+		30574ACF1C10226800C02458 /* bookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				30823E891C0D9FDA00C7EF76 /* MainViewController.h */,
+				30823E8A1C0D9FDA00C7EF76 /* MainViewController.m */,
+				30823E8C1C0DA52E00C7EF76 /* BookshelfViewController.h */,
+				30823E8D1C0DA52E00C7EF76 /* BookshelfViewController.m */,
+				30823E8E1C0DA52E00C7EF76 /* BookshelfViewController.xib */,
+				3076DCE81C17D83B00353048 /* RecentyReadViewController.h */,
+				3076DCE91C17D83B00353048 /* RecentyReadViewController.m */,
+			);
+			name = bookshelf;
+			sourceTree = "<group>";
+		};
+		30769F991C127A88006D2386 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				30769F9A1C127AAA006D2386 /* XTManager.h */,
+				30769F9B1C127AAA006D2386 /* XTManager.m */,
+				30769F9D1C1282BE006D2386 /* XTDatabaseCreator.h */,
+				30769F9E1C1282BE006D2386 /* XTDatabaseCreator.m */,
+				30769FA01C128746006D2386 /* XTNovelService.h */,
+				30769FA11C128746006D2386 /* XTNovelService.m */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		30769FB31C12C2C2006D2386 /* Leaves */ = {
+			isa = PBXGroup;
+			children = (
+				30769FB41C12C2DC006D2386 /* YAScreenShotClass.h */,
+				30769FB51C12C2DC006D2386 /* YAScreenShotClass.m */,
+				30769FB61C12C2DC006D2386 /* GetImageArrayFromTxt.h */,
+				30769FB71C12C2DC006D2386 /* GetImageArrayFromTxt.m */,
+				30769FAD1C12C278006D2386 /* LeavesCache.h */,
+				30769FAE1C12C278006D2386 /* LeavesCache.m */,
+				30769FAF1C12C278006D2386 /* LeavesView.h */,
+				30769FB01C12C278006D2386 /* LeavesView.m */,
+				30769FBD1C12C43C006D2386 /* LeavesViewController.h */,
+				30769FBE1C12C43C006D2386 /* LeavesViewController.m */,
+			);
+			name = Leaves;
+			sourceTree = "<group>";
+		};
+		307B33371C113F4A00576010 /* bookRead */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bookRead;
+			sourceTree = "<group>";
+		};
+		307B33381C113F7600576010 /* bookRead */ = {
+			isa = PBXGroup;
+			children = (
+				30769FBA1C12C41D006D2386 /* BookReadViewController.h */,
+				30769FBB1C12C41D006D2386 /* BookReadViewController.m */,
+			);
+			name = bookRead;
+			sourceTree = "<group>";
+		};
 		30823E391C0D7F7A00C7EF76 = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +494,16 @@
 		30823E441C0D7F7A00C7EF76 /* XTReader */ = {
 			isa = PBXGroup;
 			children = (
-				30823E481C0D7F7A00C7EF76 /* AppDelegate.h */,
-				30823E491C0D7F7A00C7EF76 /* AppDelegate.m */,
+				30823E811C0D908100C7EF76 /* AppDelegate */,
+				30943E891C1E657A00747384 /* Framwork */,
+				30823E7B1C0D8FD000C7EF76 /* Lib */,
+				30823E7C1C0D8FD900C7EF76 /* Marco */,
+				30823E7E1C0D902100C7EF76 /* Model */,
+				30823E7D1C0D8FE600C7EF76 /* VC */,
+				30F013811C0E9AA400213AF2 /* Resources */,
 				30823E4B1C0D7F7A00C7EF76 /* ViewController.h */,
 				30823E4C1C0D7F7A00C7EF76 /* ViewController.m */,
+				30574A251C0FCD4200C02458 /* XTReaderPrefixHeader.pch */,
 				30823E4E1C0D7F7A00C7EF76 /* Main.storyboard */,
 				30823E541C0D7F7A00C7EF76 /* Assets.xcassets */,
 				30823E561C0D7F7A00C7EF76 /* LaunchScreen.storyboard */,
@@ -141,6 +538,165 @@
 				30823E6F1C0D7F7B00C7EF76 /* Info.plist */,
 			);
 			path = XTReaderUITests;
+			sourceTree = "<group>";
+		};
+		30823E7B1C0D8FD000C7EF76 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				30769FB31C12C2C2006D2386 /* Leaves */,
+				30574AA71C10181900C02458 /* Masonry */,
+				30574A551C0FD06C00C02458 /* AFNetwork */,
+				30574A2F1C0FD04D00C02458 /* SBJson */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		30823E7C1C0D8FD900C7EF76 /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Marco;
+			sourceTree = "<group>";
+		};
+		30823E7D1C0D8FE600C7EF76 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				30823E821C0D916800C7EF76 /* base */,
+				30823E801C0D904600C7EF76 /* controller */,
+				30823E7F1C0D903D00C7EF76 /* view */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		30823E7E1C0D902100C7EF76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30769F991C127A88006D2386 /* database */,
+				30574A261C0FCDAF00C02458 /* bookstore */,
+				3085380C1C152EC90087126C /* help */,
+				30574A7D1C100CED00C02458 /* test */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		30823E7F1C0D903D00C7EF76 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				307B33371C113F4A00576010 /* bookRead */,
+				30DE49721C0EF61E00641430 /* bookshelf */,
+				30DE49711C0EF61000641430 /* bookstore */,
+				30DE49701C0EF60400641430 /* search */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		30823E801C0D904600C7EF76 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				30574ACF1C10226800C02458 /* bookshelf */,
+				30574ACE1C10225E00C02458 /* bookstore */,
+				30574ACD1C10225600C02458 /* search */,
+				307B33381C113F7600576010 /* bookRead */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		30823E811C0D908100C7EF76 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				30823E481C0D7F7A00C7EF76 /* AppDelegate.h */,
+				30823E491C0D7F7A00C7EF76 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		30823E821C0D916800C7EF76 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				30823E831C0D9F7100C7EF76 /* XTViewController.h */,
+				30823E841C0D9F7100C7EF76 /* XTViewController.m */,
+				30823E861C0D9F9F00C7EF76 /* XTNavigationController.h */,
+				30823E871C0D9F9F00C7EF76 /* XTNavigationController.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		3085380C1C152EC90087126C /* help */ = {
+			isa = PBXGroup;
+			children = (
+				30574A7A1C0FF47000C02458 /* DataTypeHelper.h */,
+				30574A7B1C0FF47000C02458 /* DataTypeHelper.m */,
+				308538091C1520D00087126C /* LeavesPageHelper.h */,
+				3085380A1C1520D00087126C /* LeavesPageHelper.m */,
+				3085380D1C152F330087126C /* DownNovelHelper.h */,
+				3085380E1C152F330087126C /* DownNovelHelper.m */,
+				307B33391C113FEE00576010 /* XTTool.h */,
+				307B333A1C113FEE00576010 /* XTTool.m */,
+			);
+			name = help;
+			sourceTree = "<group>";
+		};
+		30943E891C1E657A00747384 /* Framwork */ = {
+			isa = PBXGroup;
+			children = (
+				30769FAA1C12BA7B006D2386 /* QuartzCore.framework */,
+				30769FA81C12BA5F006D2386 /* CoreGraphics.framework */,
+				30769FA61C12BA56006D2386 /* Foundation.framework */,
+				30769FA41C12BA4D006D2386 /* UIKit.framework */,
+				30769F971C127816006D2386 /* libsqlite3.0.tbd */,
+			);
+			name = Framwork;
+			sourceTree = "<group>";
+		};
+		30DE49701C0EF60400641430 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				30DE49731C0EF63E00641430 /* SearchView.h */,
+				30DE49741C0EF63E00641430 /* SearchView.m */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		30DE49711C0EF61000641430 /* bookstore */ = {
+			isa = PBXGroup;
+			children = (
+				30823E911C0DA56B00C7EF76 /* BookstoreView.h */,
+				30823E921C0DA56B00C7EF76 /* BookstoreView.m */,
+				30DE49651C0ED09A00641430 /* TodaySuggestView.h */,
+				30DE49661C0ED09A00641430 /* TodaySuggestView.m */,
+				30DE49681C0ED0D000641430 /* ClickRankingView.h */,
+				30DE49691C0ED0D000641430 /* ClickRankingView.m */,
+				30DE496B1C0ED0FE00641430 /* NewBookSuggestView.h */,
+				30DE496C1C0ED0FE00641430 /* NewBookSuggestView.m */,
+				30574AD31C10323500C02458 /* BookDetailView.h */,
+				30574AD41C10323500C02458 /* BookDetailView.m */,
+				3076DCEE1C18011400353048 /* BookStoreTableViewCell.h */,
+				3076DCEF1C18011400353048 /* BookStoreTableViewCell.m */,
+			);
+			name = bookstore;
+			sourceTree = "<group>";
+		};
+		30DE49721C0EF61E00641430 /* bookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				3076DCEB1C1800FF00353048 /* BookShelfTableViewCell.h */,
+				3076DCEC1C1800FF00353048 /* BookShelfTableViewCell.m */,
+			);
+			name = bookshelf;
+			sourceTree = "<group>";
+		};
+		30F013811C0E9AA400213AF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30F013821C0E9B4A00213AF2 /* bookshelf.png */,
+				30F013831C0E9B4A00213AF2 /* bookstore.png */,
+				30DE496E1C0EF43E00641430 /* search.png */,
+				30769FC01C12D362006D2386 /* add.png */,
+				30769FC11C12D362006D2386 /* reduce.png */,
+				3076DCF11C18045700353048 /* test1.png */,
+				3076DCF21C18045700353048 /* test2.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +802,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30769FC31C12D362006D2386 /* reduce.png in Resources */,
+				30823E901C0DA52E00C7EF76 /* BookshelfViewController.xib in Resources */,
 				30823E581C0D7F7A00C7EF76 /* LaunchScreen.storyboard in Resources */,
+				3076DCF41C18045700353048 /* test2.png in Resources */,
+				3076DCF31C18045700353048 /* test1.png in Resources */,
+				30F013851C0E9B4A00213AF2 /* bookstore.png in Resources */,
+				30769FC21C12D362006D2386 /* add.png in Resources */,
+				30DE496F1C0EF43E00641430 /* search.png in Resources */,
+				30F013841C0E9B4A00213AF2 /* bookshelf.png in Resources */,
 				30823E551C0D7F7A00C7EF76 /* Assets.xcassets in Resources */,
 				30823E501C0D7F7A00C7EF76 /* Main.storyboard in Resources */,
 			);
@@ -273,10 +837,67 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DE496A1C0ED0D000641430 /* ClickRankingView.m in Sources */,
+				30823E931C0DA56B00C7EF76 /* BookstoreView.m in Sources */,
+				30574AC91C10181900C02458 /* NSArray+MASAdditions.m in Sources */,
+				30574ACB1C10181900C02458 /* View+MASAdditions.m in Sources */,
+				30574AD51C10323500C02458 /* BookDetailView.m in Sources */,
+				30574A531C0FD04D00C02458 /* SBJsonUTF8Stream.m in Sources */,
+				30769FBF1C12C43C006D2386 /* LeavesViewController.m in Sources */,
+				3085380F1C152F330087126C /* DownNovelHelper.m in Sources */,
+				30574AC81C10181900C02458 /* MASViewConstraint.m in Sources */,
+				30574A501C0FD04D00C02458 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				30823E8F1C0DA52E00C7EF76 /* BookshelfViewController.m in Sources */,
+				30DE496D1C0ED0FE00641430 /* NewBookSuggestView.m in Sources */,
+				30769FB11C12C278006D2386 /* LeavesCache.m in Sources */,
+				30574A581C0FD36900C02458 /* NovelModel.m in Sources */,
+				30574A491C0FD04D00C02458 /* NSObject+SBJson.m in Sources */,
 				30823E531C0D7F7A00C7EF76 /* XTReader.xcdatamodeld in Sources */,
+				30823E881C0D9F9F00C7EF76 /* XTNavigationController.m in Sources */,
 				30823E4D1C0D7F7A00C7EF76 /* ViewController.m in Sources */,
+				30574A4D1C0FD04D00C02458 /* SBJsonStreamParserAdapter.m in Sources */,
+				308538121C1533A50087126C /* NovelContentObject.m in Sources */,
+				3085380B1C1520D00087126C /* LeavesPageHelper.m in Sources */,
+				30823E851C0D9F7100C7EF76 /* XTViewController.m in Sources */,
+				30574A4B1C0FD04D00C02458 /* SBJsonStreamParser.m in Sources */,
+				30574A4E1C0FD04D00C02458 /* SBJsonStreamParserState.m in Sources */,
+				30769FB21C12C278006D2386 /* LeavesView.m in Sources */,
+				30574A4C1C0FD04D00C02458 /* SBJsonStreamParserAccumulator.m in Sources */,
+				30574AC71C10181900C02458 /* MASViewAttribute.m in Sources */,
+				30574AC61C10181900C02458 /* MASLayoutConstraint.m in Sources */,
+				30574AC31C10181900C02458 /* MASCompositeConstraint.m in Sources */,
+				30574A511C0FD04D00C02458 /* SBJsonStreamWriterState.m in Sources */,
+				30574A521C0FD04D00C02458 /* SBJsonTokeniser.m in Sources */,
+				30574ACA1C10181900C02458 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				30574AD81C10367000C02458 /* BookDetailViewController.m in Sources */,
+				30823E8B1C0D9FDA00C7EF76 /* MainViewController.m in Sources */,
 				30823E4A1C0D7F7A00C7EF76 /* AppDelegate.m in Sources */,
+				30574AC51C10181900C02458 /* MASConstraintMaker.m in Sources */,
+				30769FB91C12C2DC006D2386 /* GetImageArrayFromTxt.m in Sources */,
+				30769FB81C12C2DC006D2386 /* YAScreenShotClass.m in Sources */,
+				30DE49751C0EF63E00641430 /* SearchView.m in Sources */,
+				30574AD21C1022CB00C02458 /* SearchViewController.m in Sources */,
+				30574A2D1C0FCE5200C02458 /* AFHTTPRequestOperation+CurrentDecodeResponse.m in Sources */,
+				30769FBC1C12C41D006D2386 /* BookReadViewController.m in Sources */,
+				3076DCF01C18011400353048 /* BookStoreTableViewCell.m in Sources */,
+				30574A541C0FD04D00C02458 /* SBJsonWriter.m in Sources */,
+				30574A7C1C0FF47000C02458 /* DataTypeHelper.m in Sources */,
+				30769F9C1C127AAA006D2386 /* XTManager.m in Sources */,
+				30574ACC1C10181900C02458 /* ViewController+MASAdditions.m in Sources */,
+				30574A4F1C0FD04D00C02458 /* SBJsonStreamWriter.m in Sources */,
+				30769FA21C128746006D2386 /* XTNovelService.m in Sources */,
 				30823E471C0D7F7A00C7EF76 /* main.m in Sources */,
+				30574A291C0FCE2700C02458 /* NovelObject.m in Sources */,
+				30574A4A1C0FD04D00C02458 /* SBJsonParser.m in Sources */,
+				3076DCED1C1800FF00353048 /* BookShelfTableViewCell.m in Sources */,
+				30574A5B1C0FDF0300C02458 /* AFAppClient.m in Sources */,
+				307B333B1C113FEE00576010 /* XTTool.m in Sources */,
+				3076DCEA1C17D83B00353048 /* RecentyReadViewController.m in Sources */,
+				30FD43E41C1956200026831C /* ReadStateObject.m in Sources */,
+				30DE49671C0ED09A00641430 /* TodaySuggestView.m in Sources */,
+				30823E961C0DA5F200C7EF76 /* BookstoreViewController.m in Sources */,
+				30574AC41C10181900C02458 /* MASConstraint.m in Sources */,
+				30769F9F1C1282BE006D2386 /* XTDatabaseCreator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +988,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,7 +1026,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,10 +1038,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XTReader",
+				);
+				GCC_PREFIX_HEADER = XTReader/XTReaderPrefixHeader.pch;
 				INFOPLIST_FILE = XTReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xutong.XTReader;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XTReader/AFNetworking.framework(1)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao7.XTReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,10 +1061,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XTReader",
+				);
+				GCC_PREFIX_HEADER = XTReader/XTReaderPrefixHeader.pch;
 				INFOPLIST_FILE = XTReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xutong.XTReader;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XTReader/AFNetworking.framework(1)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao7.XTReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -502,6 +1147,7 @@
 				30823E741C0D7F7B00C7EF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30823E751C0D7F7B00C7EF76 /* Build configuration list for PBXNativeTarget "XTReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +1156,7 @@
 				30823E771C0D7F7B00C7EF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30823E781C0D7F7B00C7EF76 /* Build configuration list for PBXNativeTarget "XTReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +1165,7 @@
 				30823E7A1C0D7F7B00C7EF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "BookshelfViewController.h"
+#import "BookstoreViewController.h"
+#import "XTNavigationController.h"
+
+#import "XTDatabaseCreator.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +23,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MainViewController *mainViewCon = [[MainViewController alloc] init];
+    
+    BookshelfViewController *bookshelfViewCon = [[BookshelfViewController alloc] init];
+    BookstoreViewController *bookstoreViewCon = [[BookstoreViewController alloc] init];
+    XTNavigationController *bookshelfNav = [[XTNavigationController alloc] initWithRootViewController:bookshelfViewCon];
+    XTNavigationController *bookstoreNav = [[XTNavigationController alloc] initWithRootViewController:bookstoreViewCon];
+    
+//    XTNavigationController *bookshelfNav = [[XTNavigationController alloc] init];
+//    XTNavigationController *bookstoreNav = [[XTNavigationController alloc] init];
+    
+    [mainViewCon initWithLeftViewController:bookshelfNav andRightViewController:bookstoreNav];
+    
+    self.window.rootViewController = mainViewCon;
+    [self.window makeKeyAndVisible];
+    
+    //创建数据库
+    [XTDatabaseCreator initDatabase];
+    
     return YES;
 }
 
