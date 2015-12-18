@@ -387,7 +387,7 @@ CGAffineTransform aspectFit(CGRect innerRect, CGRect outerRect) {
 #pragma mark leavesDelegate
 - (NSUInteger) numberOfPagesInLeavesView:(LeavesView*)leavesView {
     NSLog(@"%ld",(long)_images.count);
-    return 1000;
+    return 500;
 }
 
 
