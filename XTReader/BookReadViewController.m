@@ -297,6 +297,8 @@ CGAffineTransform aspectFit(CGRect innerRect, CGRect outerRect) {
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setNavRightBarButtonItemWithTitleName:@"加入书架"];
+//    [self prefersStatusBarHidden];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     if ([self isCollect]) {
         [_rightButton setEnabled:NO];
         NSLog(@"已收藏");
@@ -318,6 +320,27 @@ CGAffineTransform aspectFit(CGRect innerRect, CGRect outerRect) {
 //    _currentImagePage --;
     [self addNovelReadState];
     _pageHelper.novelContentArray = nil;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleDefault;
+    //UIStatusBarStyleDefault = 0 黑色文字，浅色背景时使用
+    //UIStatusBarStyleLightContent = 1 白色文字，深色背景时使用
+}
+
+//- (BOOL)prefersStatusBarHidden
+//{
+//    return YES; // 返回NO表示要显示，返回YES将hiden
+//}
+
+- (BOOL)prefersStatusBarHidden {
+//    [super prefersStatusBarHidden];
+    if (_isTap) {
+        return NO;
+    }else {
+        return YES;
+    }
 }
 
 // rightButton
@@ -428,13 +451,17 @@ CGAffineTransform aspectFit(CGRect innerRect, CGRect outerRect) {
 }
 
 - (void)tap {
+    
     if (_isTap) {
 //        _isTap = NO;
+//        [[UIApplication sharedApplication] setStatusBarHidden:YES];
         [self hideTapView];
     }else {
 //        _isTap = YES;
+//        [[UIApplication sharedApplication] setStatusBarHidden:NO];
         [self showTapView];
     }
+    [self prefersStatusBarHidden];
 }
 
 - (void)showTapView {
@@ -458,14 +485,6 @@ CGAffineTransform aspectFit(CGRect innerRect, CGRect outerRect) {
 //    [self prefersStatusBarHidden];
 }
 
-- (BOOL)prefersStatusBarHidden {
-//    [super prefersStatusBarHidden];
-    if (_isTap) {
-        return NO;
-    }else {
-        return YES;
-    }
-}
 
 - (void)buttonClick:(UIButton *)button {
     switch (button.tag) {

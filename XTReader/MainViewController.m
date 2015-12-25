@@ -7,6 +7,8 @@
 //
 
 #import "MainViewController.h"
+#import "BookstoreViewController.h"
+#import "XTNavigationController.h"
 #import "BookshelfViewController.h"
 
 @interface MainViewController ()<UIScrollViewDelegate>
@@ -29,7 +31,7 @@ static MainViewController *MainViewCon = nil;
 
 - (void)initWithLeftViewController:(UINavigationController *)leftViewController andRightViewController:(UINavigationController *)rightViewController {
 
-    _leftViewCon = leftViewController.topViewController;
+//    _leftViewCon = leftViewController.topViewController;
     CGFloat width = 2*self.view.bounds.size.width;
     CGFloat height = self.view.bounds.size.height;
     
@@ -67,6 +69,28 @@ static MainViewController *MainViewCon = nil;
 //        make.width.mas_equalTo(width);
 //        make.height.mas_equalTo(height);
     }];
+    
+//    [_mainScrollView addSubview:leftViewController.view];
+//    [_mainScrollView addSubview:rightViewController.view];
+//    
+//    [leftViewController.view mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.left.and.bottom.equalTo(_mainScrollView);
+//        make.right.equalTo(leftViewController.view.mas_left);
+//        //        make.right.equalTo(_contentView.mas_right);
+//        make.width.and.height.equalTo(self.view);
+//        //        make.width.mas_equalTo(width);
+//        //        make.height.mas_equalTo(height);
+//    }];
+//    
+//    [rightViewController.view mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.equalTo(_mainScrollView.mas_top);
+//        make.left.equalTo(leftViewController.view.mas_right);
+//        make.bottom.equalTo(_mainScrollView.mas_bottom);
+//        make.right.equalTo(_mainScrollView.mas_right);
+//        make.width.and.height.equalTo(leftViewController.view);
+//        //        make.width.mas_equalTo(width);
+//        //        make.height.mas_equalTo(height);
+//    }];
 }
 
 - (void)addView {
@@ -85,7 +109,53 @@ static MainViewController *MainViewCon = nil;
     [_mainScrollView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.bottom.and.right.equalTo(self.view);
     }];
-    
+//
+//    CGFloat width = 2*self.view.bounds.size.width;
+//    CGFloat height = self.view.bounds.size.height;
+//    _contentView = [[UIView alloc] init];
+//    [_mainScrollView addSubview:_contentView];
+//
+//    [_contentView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.left.bottom.and.right.equalTo(_mainScrollView);
+//        make.width.mas_equalTo(width);
+//        make.height.mas_equalTo(height);
+//    }];
+//    
+//    
+//    // modify by xutong 2015-12-18
+//    BookshelfViewController *bookshelfViewCon = [[BookshelfViewController alloc] init];
+//    BookstoreViewController *bookstoreViewCon = [[BookstoreViewController alloc] init];
+//    XTNavigationController *bookshelfNav = [[XTNavigationController alloc] initWithRootViewController:bookshelfViewCon];
+//    XTNavigationController *bookstoreNav = [[XTNavigationController alloc] initWithRootViewController:bookstoreViewCon];
+//    
+//    _viewControllerArray = [NSMutableArray array];
+////    [_viewControllerArray addObject:bookshelfViewCon];
+////    [_viewControllerArray addObject:bookstoreViewCon];
+//    
+//    [_mainScrollView addSubview:bookshelfViewCon.view];
+//    [_mainScrollView addSubview:bookstoreViewCon.view];
+//
+//    [_contentView addSubview:bookshelfNav.view];
+//    [_contentView addSubview:bookstoreNav.view];
+//    
+//    [bookshelfViewCon.view mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.left.and.bottom.mas_equalTo(_contentView);
+//        make.right.mas_equalTo(bookstoreViewCon.view.mas_left);
+//        //        make.right.equalTo(_contentView.mas_right);
+//        make.width.and.height.mas_equalTo(bookstoreViewCon.view);
+//        //        make.width.mas_equalTo(width);
+//        //        make.height.mas_equalTo(height);
+//    }];
+//    
+//    [bookstoreViewCon.view mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.mas_equalTo(_contentView.mas_top);
+//        make.left.mas_equalTo(bookshelfViewCon.view.mas_right);
+//        make.bottom.mas_equalTo(_contentView.mas_bottom);
+//        make.right.mas_equalTo(_contentView.mas_right);
+//        make.width.and.height.mas_equalTo(bookshelfViewCon.view);
+//        //        make.width.mas_equalTo(width);
+//        //        make.height.mas_equalTo(height);
+//    }];
 }
 
 - (void)viewDidLoad {

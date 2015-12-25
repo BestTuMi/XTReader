@@ -8,7 +8,6 @@
 
 #import "XTViewController.h"
 
-
 @interface MainViewController : XTViewController
 
 + (MainViewController *)sharedInstance;

@@ -31,8 +31,7 @@
     XTNavigationController *bookshelfNav = [[XTNavigationController alloc] initWithRootViewController:bookshelfViewCon];
     XTNavigationController *bookstoreNav = [[XTNavigationController alloc] initWithRootViewController:bookstoreViewCon];
     
-//    XTNavigationController *bookshelfNav = [[XTNavigationController alloc] init];
-//    XTNavigationController *bookstoreNav = [[XTNavigationController alloc] init];
+
     
     [mainViewCon initWithLeftViewController:bookshelfNav andRightViewController:bookstoreNav];
     
